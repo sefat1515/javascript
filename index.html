@@ -1,0 +1,117 @@
+<!doctype html>
+  <html lang="en">
+  <head>
+    <!-- meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <!-- ALL FONTS LINKS START -->
+    <!-- FontAwsome free (Downloaded) link -->
+    <link rel="stylesheet" type="text/css" href="vendor/fontawesome-free/css/all.min.css">
+    <!-- pe icon 7 stock link -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/pixeden-stroke-7-icon@1.2.3/pe-icon-7-stroke/dist/pe-icon-7-stroke.min.css">
+    <!-- fonts cdn links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- ALL FONTS LINKS END -->
+
+    <!-- CSS links -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+
+    <title>Hello, world!</title>
+  </head>
+  
+  <body onload="welcome()">
+<!-- 1. getElementById ব্যবহার করে Button দ্বারা Text পরিবর্তন -->
+    <div class="container m-5">
+      <h4>1. getElementById ব্যবহার করে Button দ্বারা Text পরিবর্তন </h4>
+
+      <button type="button" onclick="textChange1()">Click Me</button>
+      <p id="p">Sefat</p>
+    </div>
+
+<!-- 2. getElementsByClassName ব্যবহার করে Button দ্বারা Text পরিবর্তন -->
+    <div class="container m-5">
+      <h4>2 getElementsByClassName ব্যবহার করে Button দ্বারা Text পরিবর্তন</h4>
+
+      <button type="button" onclick="textChange2()">Click Me</button>
+      <p class="p">Sefat</p>
+      <p class="p">Sefat</p>
+      <p class="p">Sefat</p>
+      <p class="p">Sefat</p>
+    </div>
+
+<!-- 3. Date() ফাংশন এর ব্যবহার -->
+     <div class="container m-5">
+      <h4>3. Date() ফাংশন এর ব্যবহার</h4>
+
+      <button type="button" onclick="dateChange()">Click Me</button>
+      <p id="date">Sefat</p>
+    </div>
+
+<!-- 4. var ব্যবার করে repeat() ফাংশন এর ব্যবহার -->
+    <div class="container m-5">
+      <h4>4. var ব্যবার করে repeat() ফাংশন এর ব্যবহার</h4>
+
+      <button type="button" onclick="repeat()">Click Me</button>
+      <p id="repeat">Sefat</p>
+    </div>
+
+
+    <!-- 5. JS ব্যবহার করে Style পরিবর্তন -->
+    <div class="container m-5">
+      <h4>5. JS ব্যবহার করে Style পরিবর্তন</h4>
+
+      <button type="button" onclick="styleChange()">Click Me</button>
+      <p id="style">Sefat</p>
+    </div>
+
+
+    <!-- 6. Button দ্বারা image পরিবর্তন -->
+    <div class="container m-5">
+      <h4>6. Button দ্বারা image পরিবর্তন</h4>
+
+      <button type="button" onclick="imgOne()">Image one</button>
+      <button type="button" onclick="imgTwo()">Image Two</button>
+
+     <img id="img" src="images/html.png">
+    </div>
+
+
+
+     <!-- 7. jq এর ব্যবহার -->
+    <div class="container m-5">
+      <h4>7. jq এর ব্যবহার</h4>
+
+      
+    
+
+      <button type="button" class="hide btn btn-danger">Hide</button>
+
+      <button type="button" class="show btn btn-success">show</button>
+
+       <button type="button" class="toggle btn btn-success">toggle</button>
+
+      <hr>
+      <img id="img1" src="images/html.png">
+    </div>
+
+   
+
+
+
+
+    <!-- JS links -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+    
+  </body>
+  </html>
