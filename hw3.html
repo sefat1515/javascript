@@ -1,0 +1,217 @@
+<!doctype html>
+  <html lang="en">
+  <head>
+    <!-- meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <!-- ALL FONTS LINKS START -->
+    <!-- FontAwsome free (Downloaded) link -->
+    <link rel="stylesheet" type="text/css" href="vendor/fontawesome-free/css/all.min.css">
+    <!-- pe icon 7 stock link -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/pixeden-stroke-7-icon@1.2.3/pe-icon-7-stroke/dist/pe-icon-7-stroke.min.css">
+    <!-- fonts cdn links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- ALL FONTS LINKS END -->
+
+    <!-- CSS links -->
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.0/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+
+    <title>jq ui</title>
+  </head>
+  
+  <body>
+
+      <ul>
+        <li><a href="index.html">index</a></li>
+        <li><a href="hw2.html">hw2</a></li>
+        <li><a href="hw3.html">jq ui</a></li>
+        <li><a href="hw4.html">hw4</a></li>
+        <li><a href="hw5.html">hw5</a></li>
+      </ul>
+
+    
+      <section class="container">
+        <div class="row">
+          <div id="draggable" class="ui-widget-content">
+            <p>Drag me around</p>
+          </div>
+        </div>
+      </section>
+<br>
+      <section class="container">
+        <div class="row">
+         <div id="resizable" class="ui-widget-content">
+           <h3 class="ui-widget-header">Resizable</h3>
+         </div>
+        </div>
+      </section>
+<br>
+      <section class="container">
+        <div class="row">
+        <ol id="selectable">
+          <li class="ui-widget-content">Item 1</li>
+          <li class="ui-widget-content">Item 2</li>
+          <li class="ui-widget-content">Item 3</li>
+          <li class="ui-widget-content">Item 4</li>
+          <li class="ui-widget-content">Item 5</li>
+          <li class="ui-widget-content">Item 6</li>
+          <li class="ui-widget-content">Item 7</li>
+        </ol>
+        </div>
+      </section>
+<br>
+      <section class="container">
+        <div class="row">
+          <div id="accordion">
+            <h3>Section 1</h3>
+            <div>
+              <p>Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.</p>
+            </div>
+            <h3>Section 2</h3>
+            <div>
+              <p>Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In suscipit faucibus urna. </p>
+            </div>
+            <h3>Section 3</h3>
+            <div>
+              <p>Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis. Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui. </p>
+              <ul>
+                <li>List item one</li>
+                <li>List item two</li>
+                <li>List item three</li>
+              </ul>
+            </div>
+            <h3>Section 4</h3>
+            <div>
+              <p>Cras dictum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia mauris vel est. </p><p>Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. </p>
+            </div>
+          </div>
+        </div>
+      </section>
+<br>
+<section class="container">
+  <div class="row">
+    <div class="ui-widget">
+      <label for="tags">Tags: </label>
+      <input id="tags">
+    </div>
+  </div>
+</section>
+<br>
+
+<section class="container">
+  <div class="row">
+    <div class="widget">
+      <h1>Controlgroup</h1>
+      <fieldset>
+        <legend>Rental Car</legend>
+        <div class="controlgroup">
+          <select id="car-type">
+            <option>Compact car</option>
+            <option>Midsize car</option>
+            <option>Full size car</option>
+            <option>SUV</option>
+            <option>Luxury</option>
+            <option>Truck</option>
+            <option>Van</option>
+          </select>
+          <label for="transmission-standard">Standard</label>
+          <input type="radio" name="transmission" id="transmission-standard">
+          <label for="transmission-automatic">Automatic</label>
+          <input type="radio" name="transmission" id="transmission-automatic">
+          <label for="insurance">Insurance</label>
+          <input type="checkbox" name="insurance" id="insurance">
+          <label for="horizontal-spinner" class="ui-controlgroup-label"># of cars</label>
+          <input id="horizontal-spinner" class="ui-spinner-input">
+          <button>Book Now!</button>
+        </div>
+      </fieldset>
+      <br>
+      <fieldset>
+        <legend>Rental Car</legend>
+        <div class="controlgroup-vertical">
+          <select>
+            <option>Compact car</option>
+            <option>Midsize car</option>
+            <option>Full size car</option>
+            <option>SUV</option>
+            <option>Luxury</option>
+            <option>Truck</option>
+            <option>Van</option>
+          </select>
+          <label for="transmission-standard-v">Standard</label>
+          <input type="radio" name="transmission-v" id="transmission-standard-v">
+          <label for="transmission-automatic-v">Automatic</label>
+          <input type="radio" name="transmission-v" id="transmission-automatic-v">
+          <label for="insurance-v">Insurance</label>
+          <input type="checkbox" name="insurance" id="insurance-v">
+          <label for="vertical-spinner" class="ui-controlgroup-label"># of cars</label>
+          <input id="vertical-spinner" class="ui-spinner-input">
+          <button id="book">Book Now!</button>
+        </div>
+      </fieldset>
+    </div>
+  </div>
+</section>
+<br>
+<section class="container">
+  <div class="row">
+    <p>Date: <input type="text" id="datepicker"></p>
+  </div>
+</section>
+<br>
+<section class="container">
+  <div class="row">
+    <ul id="menu">
+      <li class="ui-state-disabled"><div>Toys (n/a)</div></li>
+      <li><div>Books</div></li>
+      <li><div>Clothing</div></li>
+      <li><div>Electronics</div>
+        <ul>
+          <li class="ui-state-disabled"><div>Home Entertainment</div></li>
+          <li><div>Car Hifi</div></li>
+          <li><div>Utilities</div></li>
+        </ul>
+      </li>
+      <li><div>Movies</div></li>
+      <li><div>Music</div>
+        <ul>
+          <li><div>Rock</div>
+            <ul>
+              <li><div>Alternative</div></li>
+              <li><div>Classic</div></li>
+            </ul>
+          </li>
+          <li><div>Jazz</div>
+            <ul>
+              <li><div>Freejazz</div></li>
+              <li><div>Big Band</div></li>
+              <li><div>Modern</div></li>
+            </ul>
+          </li>
+          <li><div>Pop</div></li>
+        </ul>
+      </li>
+      <li class="ui-state-disabled"><div>Specials (n/a)</div></li>
+    </ul>
+  </div>
+</section>
+<br>
+
+    <!-- JS links -->
+     <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+    
+  </body>
+  </html>
